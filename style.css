@@ -1,0 +1,577 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height:800px;
+    background-image: url(/assets/man\ on\ hill.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+.header{
+    width: auto;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+.nav {
+    width:600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.icon{
+    width:120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav a{
+    width: 110px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.hero-content{
+    width: 800px;
+   /* height: 300px;
+    border: 1px solid blue;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 270px;
+    
+    
+}
+.tagline h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 60px;
+}
+.hero-text p{
+    font-size: larger;
+    color: white;
+    text-align: center;
+    
+}
+.hero-cta button{
+    width: 214px;
+    height: 60px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00A651;
+    border-radius: 10px;
+    border-color: #00A651 ;
+    display: block;
+    line-height: 1px;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.service-header{
+    font-size: 20px;
+    font-weight: 700;
+}
+.service{
+    width: 1400px;
+    height: 300px;
+   /* border: 1px solid hotpink;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ticket{
+    width: 290px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: #f9f9f9;
+}
+.hotel-booking{
+    width: 290px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.tour-plan{
+    width: 290px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: #f9f9f9;
+}
+.ticket img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ticket h3{
+    font-size: larger;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.ticket p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.hotel-booking img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.hotel-booking h3{
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.hotel-booking p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.tour-plan img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.tour-plan h3{
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+.tour-plan p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: black;
+}
+.grandparent{
+    width: 100%;
+    height: 580px;
+   /* border: 1px solid hotpink;*/
+    background-image: url(/assets/world\ map.png);
+    background: #0058530D;
+    opacity: 400%;
+}
+.parent{
+    width:500px;
+    height: 300px;
+    border: 1px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #ffffff;
+       
+}
+.parent p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    
+  
+}
+.parent h2{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+}
+.child{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.boy{
+    width: 200px;
+    height: 210px;
+    border: 1px solid red;
+    border-radius: 15px;
+    border-color: #ffffff;
+}   
+.girl{
+    width: 200px;
+    height: 210px;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    border-color: #ffffff;
+      
+}
+.cousin{
+    width: 200px;
+    height: 210px;
+    border: 1px solid black;
+    border-radius: 15px;
+    border-color: #ffffff;
+}
+.nephew{
+    width: 200px;
+    height: 210px;
+    border: 1px solid greenyellow;
+    border-radius: 15px;
+    border-color: #ffffff;
+}
+.boy img{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.boy h2{
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    
+}
+.boy p{
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+.girl Img{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.girl h2{
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+}
+.girl p{
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+.cousin img{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.cousin h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.cousin p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.nephew img{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.nephew h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.nephew p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.destination{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.popular{
+    width: 44%;
+    height: 602px;
+   /* border: 1px solid hotpink;*/
+    margin-right: 40px;
+    
+    
+}
+.popular img{
+    margin-left: -590px;
+}
+.location{
+    width: 660px;
+    height: 602px;
+  /*  border: 1px solid blue;*/
+    display: grid;
+}
+.thailand{
+    width: 600px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+    justify-items: right;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border-color: hsl(33, 100%, 88%);
+}
+.indonesia{
+    width:600px ;
+    height:180px;
+    border: 1px solid green;
+    display: flex;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-color: bisque;    
+}
+
+.new-zealand{
+    width: 600px;
+    height: 180px;
+    border: 1px solid purple;
+    display: flex;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-color: bisque;
+}
+.thailand h5{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.thailand h6{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.indonesia h5{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.indonesia h6{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.new-zealand h5{
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.new-zealand h6{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navigator{
+    width: 95%;
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-around ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.best-packages{
+    width: 100%;
+    height: 800px;
+}
+.intro h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+.hot-deals{
+    width: 100px ;
+    height:40px ;
+   /* border: 1px solid hotpink;*/
+    ;
+}
+.hot-deals button{
+    width: 100px;
+    height: 40px;
+    background-color: #00A651;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: #00A651
+;
+}
+.backpack{
+    width: 100px ;
+    height:40px ;
+    /* border: 1px solid red; */
+}
+.backpack button{
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: #666666;
+    border-color: #666666;
+
+}
+.south-asia{
+    width: 100px ;
+    height:40px ;
+    /* border: 1px solid black; */
+}
+.south-asia button{
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: #666666;
+    border-color: #666666;
+
+}
+.honeymoon{
+    width: 100px ;
+    height:40px ;
+    /* border: 1px solid purple; */
+}
+.honeymoon button{
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: #666666;
+    border-color: #666666;
+
+}
+.europe{
+    width: 100px ;
+    height:40px ;
+    /* border: 1px solid greenyellow ; */
+}
+.europe button{
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: #666666;
+    border-color: #666666;
+
+}
+.more{
+    width: 100px ;
+    height:40px ;
+    /* border: 1px solid blue; */
+}
+.more button{
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: #666666;
+    border-color: #666666;
+}
+.places{
+    width: 95%;
+    height: 360px;
+    /* border: 1px solid hotpink; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 35px;
+
+}
+.inigo{
+    width: 340px;
+    height: 360px;
+     border: 1px solid greenyellow; 
+    border-radius: 15px;
+    border-color: #ffffff;
+
+}
+.jamal{
+    width: 340px;
+    height: 360px;
+    border: 1px solid red; 
+    border-radius: 15px;
+    border-color: #ffffff;
+}
+.messi{
+    width: 340px;
+    height: 360px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    border-color: #ffffff;
+}
+.inigo h5{
+    margin-top: 10px;
+}
+.jamal h5{
+    margin-top: 10px;
+}
+.messi h5{
+    margin-top: 10px;
+}
+.inigo P{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.inigo h6{
+    margin-top: 10px;
+}
+.jamal P{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.jamal h6{
+    margin-top: 10px;
+}
+.messi P{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.messi h6{
+    margin-top: 10px;
+}
+.discover-more{
+    width: 150px ;
+    height:40px ;
+   /* border: 1px solid hotpink; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.discover-more button{
+    width: 150px;
+    height: 40px;
+    background-color: #00A651;
+    color: #ffffff;
+    border-radius: 10px;
+    border-color: #00A651;
+}
