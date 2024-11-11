@@ -7,7 +7,7 @@
 .hero{
     width: 100%;
     height:800px;
-    background-image: url(/assets/man\ on\ hill.jpg);
+    background-image: url(assets/man\ on\ hill.jpg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -185,7 +185,7 @@ h2{
     width: 100%;
     height: 580px;
    /* border: 1px solid hotpink;*/
-    background-image: url(/assets/world\ map.png);
+    background-image: url(assets/world\ map.png);
     background: #0058530D;
     opacity: 400%;
 }
